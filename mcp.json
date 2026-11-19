@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "fedsync-emergency-engine": {
+      "command": "python3",
+      "args": ["/absolute/path/to/fedsync_mcp_server_live.py"],
+      "alwaysAllow": [
+        "get_incident_weather",
+        "get_disaster_declarations",
+        "get_disaster_fund_balance"
+      ]
+    }
+  }
+}
