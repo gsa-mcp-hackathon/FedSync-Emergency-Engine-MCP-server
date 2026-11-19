@@ -140,7 +140,3 @@ fedsync_mcp_server_live.py
 The server communicates with Bob over stdio using the [MCP protocol (2024-11-05)](https://spec.modelcontextprotocol.io). If a live `.gov` API is unreachable (WAF-restricted environments), the server falls back to a curated snapshot of recent declarations.
 
 ---
-
-## License
-
-MIT
